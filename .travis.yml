@@ -4,6 +4,4 @@ before_script:
   - bundle install
 
 script:
-  - bundle exec pod install
-  # this will fail without the patch:
-  - bundle exec pod install --deployment
+  - bundle exec pod install --verbose
